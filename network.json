@@ -15,14 +15,21 @@
             "target": "data.csv"
         },
         {
-            "ports": [],
+            "ports": [
+                {
+                    "input": "pop_df",
+                    "type": "csv"
+                }
+            ],
             "source": "scprc_est_2017_18_pop_res.csv",
             "target": "clean.R"
         }
     ],
     "nodes": [
         {
-            "name": "clean.R"
+            "assigned_to": "chnegiz",
+            "name": "clean.R",
+            "task_status": "in progress"
         },
         {
             "name": "data.csv"
@@ -31,6 +38,6 @@
             "name": "scprc_est_2017_18_pop_res.csv"
         }
     ],
-    "updated_at": "2018-10-04 15:23:47",
+    "updated_at": "2018-10-04 15:26:03",
     "url": "https://github.com/fall2018-saltz/homework_6"
 }
