@@ -3,7 +3,7 @@ arrests <- USArrests
 stateName <- rownames(arrests)
 rownames(arrests) <- NULL
 arrests <- cbind(arrests,stateName)
-View(arrests)
+arrests
 
 ##CLEANING DATA
 dfStates <- dfStates[-53,]
