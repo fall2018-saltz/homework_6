@@ -117,6 +117,16 @@
             ],
             "source": "scatter.R",
             "target": "scatterplot.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "pop_boxplot",
+                    "type": "png"
+                }
+            ],
+            "source": "boxplot.R",
+            "target": "boxplot1.png"
         }
     ],
     "nodes": [
@@ -173,6 +183,6 @@
             "name": "boxplot2.png"
         }
     ],
-    "updated_at": "2018-10-11 01:03:10",
+    "updated_at": "2018-10-11 01:03:26",
     "url": "https://github.com/fall2018-saltz/homework_6"
 }
