@@ -1,4 +1,5 @@
 
+dfStates <- pop_df
 arrests <- USArrests 
 stateName <- rownames(arrests)
 rownames(arrests) <- NULL
