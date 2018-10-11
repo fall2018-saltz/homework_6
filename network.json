@@ -7,16 +7,6 @@
         {
             "ports": [
                 {
-                    "output": "clean_data",
-                    "type": "csv"
-                }
-            ],
-            "source": "clean.R",
-            "target": "data.csv"
-        },
-        {
-            "ports": [
-                {
                     "input": "pop_df",
                     "type": "csv"
                 }
@@ -32,12 +22,9 @@
             "task_status": "in progress"
         },
         {
-            "name": "data.csv"
-        },
-        {
             "name": "scprc_est_2017_18_pop_res.csv"
         }
     ],
-    "updated_at": "2018-10-11 00:38:19",
+    "updated_at": "2018-10-11 00:38:25",
     "url": "https://github.com/fall2018-saltz/homework_6"
 }
