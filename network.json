@@ -13,6 +13,17 @@
             ],
             "source": "scprc_est_2017_18_pop_res.csv",
             "target": "clean.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "combined_df",
+                    "output": "combined_df",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "histogram.R"
         }
     ],
     "nodes": [
@@ -29,6 +40,6 @@
             "name": "histogram.R"
         }
     ],
-    "updated_at": "2018-10-11 00:38:42",
+    "updated_at": "2018-10-11 00:38:54",
     "url": "https://github.com/fall2018-saltz/homework_6"
 }
