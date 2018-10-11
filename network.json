@@ -46,8 +46,11 @@
         },
         {
             "name": "urbanpop_histogram.png"
+        },
+        {
+            "name": "population_hist.png"
         }
     ],
-    "updated_at": "2018-10-11 00:51:57",
+    "updated_at": "2018-10-11 00:52:07",
     "url": "https://github.com/fall2018-saltz/homework_6"
 }
