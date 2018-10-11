@@ -43,8 +43,11 @@
         },
         {
             "name": "Population_Histogram.png"
+        },
+        {
+            "name": "Murder_histogram.png"
         }
     ],
-    "updated_at": "2018-10-11 00:45:28",
+    "updated_at": "2018-10-11 00:45:40",
     "url": "https://github.com/fall2018-saltz/homework_6"
 }
