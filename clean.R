@@ -26,5 +26,5 @@ colnames(dfStates)
 ##arrests <- arrests %>% rownames_to_column("stateName")
 common_col_names <- intersect(names(arrests), names(dfStates))
 combined_df <- merge.data.frame(arrests, dfStates, by = common_col_names, all.x = TRUE)
-View(combined_df
+combined_df
 
