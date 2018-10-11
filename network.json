@@ -127,6 +127,16 @@
             ],
             "source": "boxplot.R",
             "target": "boxplot1.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "MR_boxplot",
+                    "type": "png"
+                }
+            ],
+            "source": "boxplot.R",
+            "target": "boxplot2.png"
         }
     ],
     "nodes": [
@@ -183,6 +193,6 @@
             "name": "boxplot2.png"
         }
     ],
-    "updated_at": "2018-10-11 01:03:26",
+    "updated_at": "2018-10-11 01:04:03",
     "url": "https://github.com/fall2018-saltz/homework_6"
 }
