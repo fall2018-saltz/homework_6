@@ -14,19 +14,19 @@ MR_hist
 ##change the binwidth parameter so that the data can be more accuratly presented visually
 
 ##histogram for assualt
-assualt_hist <- ggplot(combined_df, aes(x= Assualt))
-assualt_hist <- MR_hist + geom_histogram(binwidth = 1, color='blue', fill= 'pink')
-assualt_hist <- MR_hist + ggtitle("Assualt Rate Histogram")
-assualt_hist
+assault_hist <- ggplot(combined_df, aes(x= Assualt))
+assault_hist <- assault_hist + geom_histogram(binwidth = 1, color='blue', fill= 'pink')
+assault_hist <- assault_hist + ggtitle("Assualt Rate Histogram")
+assault_hist
 
 ##histogram for urbanpop
 urbanpop_hist <- ggplot(combined_df, aes(x= UrbanPop))
-urbanpop_hist <- MR_hist + geom_histogram(binwidth = 1, color='blue', fill= 'pink')
-urbanpop_hist <- MR_hist + ggtitle("Urban Population Histogram")
+urbanpop_hist <- urbanpop_hist + geom_histogram(binwidth = 1, color='blue', fill= 'pink')
+urbanpop_hist <- urbanpop_hist + ggtitle("Urban Population Histogram")
 urbanpop_hist
 
 #histogram for rape
-urbanpop_hist <- ggplot(combined_df, aes(x= Rape))
-urbanpop_hist <- MR_hist + geom_histogram(binwidth = 1, color='blue', fill= 'pink')
-urbanpop_hist <- MR_hist + ggtitle("Rape Rate Histogram")
-urbanpop_hist
+rape_hist <- ggplot(combined_df, aes(x= Rape))
+rape_hist <- rape_hist + geom_histogram(binwidth = 1, color='blue', fill= 'pink')
+rape_hist <- rape_hist + ggtitle("Rape Rate Histogram")
+rape_hist
