@@ -15,13 +15,13 @@ MR_hist
 
 ##histogram for assualt
 assault_hist <- ggplot(combined_df, aes(x= Assault))
-assault_hist <- assault_hist + geom_histogram(binwidth = 1, color='blue', fill= 'purple')
+assault_hist <- assault_hist + geom_histogram(binwidth = 10, color='blue', fill= 'purple')
 assault_hist <- assault_hist + ggtitle("Assault Rate Histogram")
 assault_hist
 
 ##histogram for urbanpop
 urbanpop_hist <- ggplot(combined_df, aes(x= UrbanPop))
-urbanpop_hist <- urbanpop_hist + geom_histogram(binwidth = 1, color='blue', fill= 'orange')
+urbanpop_hist <- urbanpop_hist + geom_histogram(binwidth = 10, color='blue', fill= 'orange')
 urbanpop_hist <- urbanpop_hist + ggtitle("Urban Population Histogram")
 urbanpop_hist
 
