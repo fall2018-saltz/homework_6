@@ -165,8 +165,11 @@
         },
         {
             "name": "scatterplot.png"
+        },
+        {
+            "name": "boxplot1.png"
         }
     ],
-    "updated_at": "2018-10-11 00:58:48",
+    "updated_at": "2018-10-11 01:03:04",
     "url": "https://github.com/fall2018-saltz/homework_6"
 }
