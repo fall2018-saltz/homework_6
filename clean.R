@@ -9,7 +9,7 @@ View(arrests)
 dfStates <- dfStates[-53,]
 dfStates <- dfStates[-1,]
 dfStates <- dfStates[,-1:-4]
-View(dfStates)
+dfStates
 ##Making sure there are exactly 51 rows
 nrow(dfStates)
 filter_df <- dfStates
@@ -26,5 +26,5 @@ colnames(dfStates)
 ##arrests <- arrests %>% rownames_to_column("stateName")
 common_col_names <- intersect(names(arrests), names(dfStates))
 combined_df <- merge.data.frame(arrests, dfStates, by = common_col_names, all.x = TRUE)
-View(combined_df)
+View(combined_df
 
