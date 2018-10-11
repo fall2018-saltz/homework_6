@@ -157,6 +157,16 @@
             ],
             "source": "bargraph.R",
             "target": "bargraph1.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "MPS_bargraph2",
+                    "type": "png"
+                }
+            ],
+            "source": "bargraph.R",
+            "target": "bargraph2.png"
         }
     ],
     "nodes": [
@@ -229,6 +239,6 @@
             "name": "bargraph1.png"
         }
     ],
-    "updated_at": "2018-10-11 01:07:23",
+    "updated_at": "2018-10-11 01:07:35",
     "url": "https://github.com/fall2018-saltz/homework_6"
 }
