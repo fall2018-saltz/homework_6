@@ -170,12 +170,16 @@
             "name": "assault_hist.png"
         },
         {
+            "assigned_to": "chnegiz",
             "desc": "",
-            "name": "boxplot.R"
+            "name": "boxplot.R",
+            "task_status": "in progress"
         },
         {
+            "assigned_to": "chnegiz",
             "desc": "",
-            "name": "bargraph.R"
+            "name": "bargraph.R",
+            "task_status": "in progress"
         },
         {
             "assigned_to": "chnegiz",
@@ -191,8 +195,11 @@
         },
         {
             "name": "boxplot2.png"
+        },
+        {
+            "name": "bargraph.png"
         }
     ],
-    "updated_at": "2018-10-11 01:04:03",
+    "updated_at": "2018-10-11 01:06:18",
     "url": "https://github.com/fall2018-saltz/homework_6"
 }
