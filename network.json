@@ -113,8 +113,12 @@
         {
             "desc": "",
             "name": "bargraph.R"
+        },
+        {
+            "desc": "",
+            "name": "scatter.R"
         }
     ],
-    "updated_at": "2018-10-11 00:56:59",
+    "updated_at": "2018-10-11 00:57:05",
     "url": "https://github.com/fall2018-saltz/homework_6"
 }
