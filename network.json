@@ -24,16 +24,6 @@
             ],
             "source": "clean.R",
             "target": "histogram.R"
-        },
-        {
-            "ports": [
-                {
-                    "output": "assault_hist",
-                    "type": "png"
-                }
-            ],
-            "source": "histogram.R",
-            "target": "assualt_histogram.png"
         }
     ],
     "nodes": [
@@ -52,15 +42,12 @@
             "task_status": "in progress"
         },
         {
-            "name": "assualt_histogram.png"
-        },
-        {
             "name": "rape_histogram.png"
         },
         {
             "name": "urbanpop_histogram.png"
         }
     ],
-    "updated_at": "2018-10-11 00:51:54",
+    "updated_at": "2018-10-11 00:51:57",
     "url": "https://github.com/fall2018-saltz/homework_6"
 }
