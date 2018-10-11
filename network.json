@@ -34,6 +34,16 @@
             ],
             "source": "histogram.R",
             "target": "Population_Histogram.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "MR_hist",
+                    "type": "png"
+                }
+            ],
+            "source": "histogram.R",
+            "target": "Murder_histogram.png"
         }
     ],
     "nodes": [
@@ -67,6 +77,6 @@
             "name": "urbanpop_histogram.png"
         }
     ],
-    "updated_at": "2018-10-11 00:46:37",
+    "updated_at": "2018-10-11 00:46:51",
     "url": "https://github.com/fall2018-saltz/homework_6"
 }
