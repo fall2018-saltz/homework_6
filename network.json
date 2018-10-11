@@ -52,8 +52,11 @@
         },
         {
             "name": "murder_hist.png"
+        },
+        {
+            "name": "assault_hist.png"
         }
     ],
-    "updated_at": "2018-10-11 00:52:15",
+    "updated_at": "2018-10-11 00:52:26",
     "url": "https://github.com/fall2018-saltz/homework_6"
 }
