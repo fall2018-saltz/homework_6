@@ -1,5 +1,4 @@
 
-dfStates <- read.csv(url(urlread),stringsAsFactors = FALSE) ##call local sheet
 str(dfStates)
 dfStates
 
