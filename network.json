@@ -49,8 +49,11 @@
         },
         {
             "name": "assualt_histogram.png"
+        },
+        {
+            "name": "rape_histogram.png"
         }
     ],
-    "updated_at": "2018-10-11 00:45:48",
+    "updated_at": "2018-10-11 00:45:55",
     "url": "https://github.com/fall2018-saltz/homework_6"
 }
