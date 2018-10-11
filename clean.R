@@ -1,4 +1,7 @@
 
+library (dplyr)
+library (ggplot2)
+library(tibble)
 dfStates <- pop_df
 arrests <- USArrests 
 stateName <- rownames(arrests)
