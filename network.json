@@ -107,6 +107,16 @@
             ],
             "source": "clean.R",
             "target": "scatter.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "pop_stat_scatter",
+                    "type": "png"
+                }
+            ],
+            "source": "scatter.R",
+            "target": "scatterplot.png"
         }
     ],
     "nodes": [
@@ -157,6 +167,6 @@
             "name": "scatterplot.png"
         }
     ],
-    "updated_at": "2018-10-11 00:58:35",
+    "updated_at": "2018-10-11 00:58:48",
     "url": "https://github.com/fall2018-saltz/homework_6"
 }
