@@ -34,6 +34,16 @@
             ],
             "source": "histogram.R",
             "target": "population_hist.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "MR_hist",
+                    "type": "png"
+                }
+            ],
+            "source": "histogram.R",
+            "target": "murder_hist.png"
         }
     ],
     "nodes": [
@@ -67,6 +77,6 @@
             "name": "assault_hist.png"
         }
     ],
-    "updated_at": "2018-10-11 00:52:54",
+    "updated_at": "2018-10-11 00:53:04",
     "url": "https://github.com/fall2018-saltz/homework_6"
 }
