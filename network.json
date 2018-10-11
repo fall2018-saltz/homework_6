@@ -74,6 +74,17 @@
             ],
             "source": "histogram.R",
             "target": "rape_histogram.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "combined_df",
+                    "output": "combined_df",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "boxplot.R"
         }
     ],
     "nodes": [
@@ -119,6 +130,6 @@
             "name": "scatter.R"
         }
     ],
-    "updated_at": "2018-10-11 00:57:05",
+    "updated_at": "2018-10-11 00:57:22",
     "url": "https://github.com/fall2018-saltz/homework_6"
 }
