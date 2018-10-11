@@ -29,3 +29,9 @@ common_col_names <- intersect(names(arrests), names(dfStates))
 combined_df <- merge.data.frame(arrests, dfStates, by = common_col_names, all.x = TRUE)
 combined_df
 
+##calculate number of murders per state
+murders_per_state <- ((combined_df$population)/100000)* combined_df$Murder
+View(murders_per_state)
+combined_df$TotalStateMurders <- murders_per_state
+View(combined_df)
+
