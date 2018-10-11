@@ -148,10 +148,15 @@
             "name": "bargraph.R"
         },
         {
+            "assigned_to": "chnegiz",
             "desc": "",
-            "name": "scatter.R"
+            "name": "scatter.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "scatterplot.png"
         }
     ],
-    "updated_at": "2018-10-11 00:57:47",
+    "updated_at": "2018-10-11 00:58:35",
     "url": "https://github.com/fall2018-saltz/homework_6"
 }
