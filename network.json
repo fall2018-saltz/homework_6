@@ -1,0 +1,46 @@
+{
+    "collaborators": [
+        "chnegiz"
+    ],
+    "created_at": "2018-10-04 15:03:23",
+    "edges": [
+        {
+            "ports": [
+                {
+                    "output": "clean_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "clean.R",
+            "target": "data.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "pop_df",
+                    "type": "csv"
+                }
+            ],
+            "source": "scprc_est_2017_18_pop_res.csv",
+            "target": "clean.R"
+        }
+    ],
+    "nodes": [
+        {
+            "assigned_to": "chnegiz",
+            "name": "clean.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "data.csv"
+        },
+        {
+            "name": "scprc_est_2017_18_pop_res.csv"
+        },
+        {
+            "name": "histogram1.png"
+        }
+    ],
+    "updated_at": "2018-10-11 00:37:13",
+    "url": "https://github.com/fall2018-saltz/homework_6"
+}
