@@ -52,8 +52,11 @@
         },
         {
             "name": "rape_histogram.png"
+        },
+        {
+            "name": "urbanpop_histogram.png"
         }
     ],
-    "updated_at": "2018-10-11 00:45:55",
+    "updated_at": "2018-10-11 00:46:17",
     "url": "https://github.com/fall2018-saltz/homework_6"
 }
