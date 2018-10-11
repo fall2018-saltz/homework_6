@@ -1,7 +1,4 @@
 
-str(dfStates)
-dfStates
-
 arrests <- USArrests 
 stateName <- rownames(arrests)
 rownames(arrests) <- NULL
