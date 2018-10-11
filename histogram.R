@@ -14,9 +14,9 @@ MR_hist
 ##change the binwidth parameter so that the data can be more accuratly presented visually
 
 ##histogram for assualt
-assault_hist <- ggplot(combined_df, aes(x= Assualt))
+assault_hist <- ggplot(combined_df, aes(x= Assault))
 assault_hist <- assault_hist + geom_histogram(binwidth = 1, color='blue', fill= 'purple')
-assault_hist <- assault_hist + ggtitle("Assualt Rate Histogram")
+assault_hist <- assault_hist + ggtitle("Assault Rate Histogram")
 assault_hist
 
 ##histogram for urbanpop
