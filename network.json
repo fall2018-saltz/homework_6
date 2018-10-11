@@ -24,6 +24,16 @@
             ],
             "source": "clean.R",
             "target": "histogram.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "pop_hist",
+                    "type": "png"
+                }
+            ],
+            "source": "histogram.R",
+            "target": "population_hist.png"
         }
     ],
     "nodes": [
@@ -57,6 +67,6 @@
             "name": "assault_hist.png"
         }
     ],
-    "updated_at": "2018-10-11 00:52:26",
+    "updated_at": "2018-10-11 00:52:54",
     "url": "https://github.com/fall2018-saltz/homework_6"
 }
