@@ -109,8 +109,12 @@
         {
             "desc": "",
             "name": "boxplot.R"
+        },
+        {
+            "desc": "",
+            "name": "bargraph.R"
         }
     ],
-    "updated_at": "2018-10-11 00:56:40",
+    "updated_at": "2018-10-11 00:56:59",
     "url": "https://github.com/fall2018-saltz/homework_6"
 }
