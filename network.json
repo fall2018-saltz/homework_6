@@ -1,0 +1,254 @@
+{
+    "collaborators": [
+        "chnegiz"
+    ],
+    "created_at": "2018-10-04 15:03:23",
+    "edges": [
+        {
+            "ports": [
+                {
+                    "input": "pop_df",
+                    "type": "csv"
+                }
+            ],
+            "source": "scprc_est_2017_18_pop_res.csv",
+            "target": "clean.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "combined_df",
+                    "output": "combined_df",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "histogram.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "pop_hist",
+                    "type": "png"
+                }
+            ],
+            "source": "histogram.R",
+            "target": "population_hist.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "MR_hist",
+                    "type": "png"
+                }
+            ],
+            "source": "histogram.R",
+            "target": "murder_hist.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "assault_hist",
+                    "type": "png"
+                }
+            ],
+            "source": "histogram.R",
+            "target": "assault_hist.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "urbanpop_hist",
+                    "type": "png"
+                }
+            ],
+            "source": "histogram.R",
+            "target": "urbanpop_histogram.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "rape_hist",
+                    "type": "png"
+                }
+            ],
+            "source": "histogram.R",
+            "target": "rape_histogram.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "combined_df",
+                    "output": "combined_df",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "boxplot.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "combined_df",
+                    "output": "combined_df",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "bargraph.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "combined_df",
+                    "output": "combined_df",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "scatter.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "pop_stat_scatter",
+                    "type": "png"
+                }
+            ],
+            "source": "scatter.R",
+            "target": "scatterplot.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "pop_boxplot",
+                    "type": "png"
+                }
+            ],
+            "source": "boxplot.R",
+            "target": "boxplot1.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "MR_boxplot",
+                    "type": "png"
+                }
+            ],
+            "source": "boxplot.R",
+            "target": "boxplot2.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "MPS_bargraph",
+                    "type": "png"
+                }
+            ],
+            "source": "bargraph.R",
+            "target": "bargraph.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "MPS_bargraph1",
+                    "type": "png"
+                }
+            ],
+            "source": "bargraph.R",
+            "target": "bargraph1.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "MPS_bargraph2",
+                    "type": "png"
+                }
+            ],
+            "source": "bargraph.R",
+            "target": "bargraph2.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "MPS_bargraph3",
+                    "type": "png"
+                }
+            ],
+            "source": "bargraph.R",
+            "target": "bargraph3.png"
+        }
+    ],
+    "nodes": [
+        {
+            "assigned_to": "chnegiz",
+            "name": "clean.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "scprc_est_2017_18_pop_res.csv"
+        },
+        {
+            "assigned_to": "chnegiz",
+            "desc": "",
+            "name": "histogram.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "rape_histogram.png"
+        },
+        {
+            "name": "urbanpop_histogram.png"
+        },
+        {
+            "name": "population_hist.png"
+        },
+        {
+            "name": "murder_hist.png"
+        },
+        {
+            "name": "assault_hist.png"
+        },
+        {
+            "assigned_to": "chnegiz",
+            "desc": "",
+            "name": "boxplot.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "chnegiz",
+            "desc": "",
+            "name": "bargraph.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "chnegiz",
+            "desc": "",
+            "name": "scatter.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "scatterplot.png"
+        },
+        {
+            "name": "boxplot1.png"
+        },
+        {
+            "name": "boxplot2.png"
+        },
+        {
+            "name": "bargraph.png"
+        },
+        {
+            "name": "bargraph2.png"
+        },
+        {
+            "name": "bargraph3.png"
+        },
+        {
+            "name": "bargraph1.png"
+        }
+    ],
+    "updated_at": "2018-10-11 01:07:46",
+    "url": "https://github.com/fall2018-saltz/homework_6"
+}
